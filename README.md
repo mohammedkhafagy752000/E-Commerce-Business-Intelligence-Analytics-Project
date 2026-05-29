@@ -173,14 +173,26 @@ The dashboard was designed to support strategic business decisions through inter
 # 📂 Project Structure
 
 ```bash
-Ecommerce-BI-Analytics/
+E-Commerce-Business-Intelligence-Analytics-Project/
 │
-├── ETL_Scripts.sql
-├── Data_Cleaning.sql
-├── Star_Schema.sql
-├── KPI_Measures.pbix
-├── Ecommerce_Dashboard.pbix
-├── datasets/
+├── SQL_Scripts/
+│   ├── 001_OLTP_CREATION.sql
+│   ├── 002_EXTRACT.sql
+│   ├── 003_DATAWAREHOUSE CREATION.sql
+│   └── 004_EXTRACT_FROM_OLTP TO_DW.sql
+│
+├── Datasets/
+│   ├── sample_Categories.csv
+│   ├── sample_Customers.csv
+│   ├── sample_Geolocation.csv
+│   ├── sample_Order Items.csv
+│   ├── sample_Order Payments.csv
+│   ├── sample_Orders.csv
+│   ├── sample_Products.csv
+│   ├── sample_Reviews.csv
+│   └── sample_Sellers.csv
+│
+├── Ecommerce_Project_SQL_Power_BI.pbix
 └── README.md
 ```
 
